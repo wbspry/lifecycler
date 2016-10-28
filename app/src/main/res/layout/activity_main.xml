@@ -11,7 +11,16 @@
     tools:context="yyyske3.lifecycler.MainActivity">
 
     <TextView
+        android:id="@+id/tv_top"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!" />
+
+    <FrameLayout
+        android:id="@+id/fl_fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tv_top">
+
+    </FrameLayout>
 </RelativeLayout>
